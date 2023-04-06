@@ -10,19 +10,24 @@
             background-color: #393632;
         }
       form{
-       border:1px solid ;
+        border: 1px solid;
         padding: 10px;
         border-radius: 10px;
         margin-left: 30px;
           background-color: #393632;
+        margin-left: 20px;
       }
       .submit:hover{
           opacity: 0.6;
-          transition:opacity 0.50ms;
+          transition:opacity 0.5ms;
+        color: cornflowerblue;
+
       }
-      iframe{
+      iframe{width:95%;
           border-radius: 10px;
           cursor: pointer;
+
+
       }
       .h{
           color: azure;
@@ -35,10 +40,11 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 ">
           <h3 class="h">Where we are</h3>
         <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d7977.666400105263!2d36.81285622412605!3d-1.2732527962852922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-1.2720011999999998!2d36.814259799999995!4m5!1s0x182f171dfb52ef3f%3A0x973a39272320f4d9!2sApen%20Softwares%2C%20Peace%20Towers%2C%20Ngara%20Rd%2C%20Nairobi!3m2!1d-1.2747446999999998!2d36.8203756!5e0!3m2!1sen!2ske!4v1680690767791!5m2!1sen!2ske" width="300" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <p class="h">Wondering how to get to Nairobi, Kenya in Westlands, Kenya? Map helps you find the best way to get to Nairobi, Kenya with step-by-step directions from the nearest public transit station</p>
+
+            <p class="h mt-5">.Wondering how to get to Nairobi, Kenya in Westlands, Kenya? Map helps you find the best way to get to Nairobi, Kenya with step-by-step directions from the nearest public transit station</p>
           </div>
         <div class="col-md-6">
           <h3 class="h">Send us Message</h3>
@@ -62,8 +68,8 @@
         <div>
           <textarea name="comment" placeholder="Message" class="form-control bg-secondary" id="exampleFormControlTextarea1" rows="5"></textarea>
           </div>
-       <div class="col-12">
-      <button type="submit" class="btn btn-style2 bg-secondary submit">Submit</button>
+       <div class="col-4">
+      <button type="submit" class="btn  bg-secondary submit">Submit</button>
         </div>
        </form>
         </div>
